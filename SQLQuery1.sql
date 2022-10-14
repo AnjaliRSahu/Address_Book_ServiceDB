@@ -11,3 +11,9 @@ phoneNumber bigint,
 email varchar(255)
 )
 select * from Address_BookTable;
+
+insert into Address_BookTable values('Anjali','Sahu','Malhotra Heights','Mumbai','Maharashtra',123456,0123456789,'anjalisahu@gmail.com'),
+							('Ash','Shah','Hadpsar','Pune','Maharashtra',754456,0123456789,'shahAsh@gmail.com'),
+							('John','Rok','Heights','Banglore','Karnataka',471256,0123456789,'rok123@gmail.com'),
+							('SMITH','Zewo','New Chamber Street','UK','UK',364156,011556789,'smithZewo@gmail.com');
+
