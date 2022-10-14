@@ -17,3 +17,5 @@ insert into Address_BookTable values('Anjali','Sahu','Malhotra Heights','Mumbai'
 							('John','Rok','Heights','Banglore','Karnataka',471256,0123456789,'rok123@gmail.com'),
 							('SMITH','Zewo','New Chamber Street','UK','UK',364156,011556789,'smithZewo@gmail.com');
 
+update Address_BookTable
+set Address='New Heights'where FirstName='John';
